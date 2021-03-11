@@ -1,0 +1,22 @@
+
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* ja esta no centro mas nao esta em coluna fica desalinhado*/
+    flex-direction: column; /* em coluna deixa um abaixo do outro*/
+    background-color: #F2A7A0;/* incluir cor ao fundo */
+    color: #483D8B; /*cor do titulo*/
+    text-shadow: 0 0 4px #7c0665 ; /* incluir uma sombra no titulo*/
+    font-size: 20px; /*Tamanho do titulo*/
+    font-family:Tahoma, sans-serif; /* estilo do titulo*/
+} 
+
+footer {
+    color: rgb(75, 74, 74);
+    font-size: 15px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold; /*coloca em negrito*/
+    text-shadow: none; /*limpa sombra do texto do rodapé*/
+}
